@@ -13,21 +13,7 @@ const HeroSlider = () => {
   return (
     <div className="flex items-center justify-center flex-col h-[500px] md:h-[650px] bg-white shadow-lg  ">
       <Swiper
-        breakpoints={{
-          0: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-          },
-          400: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-          },
-          600: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-          },
-        }}
-        freeMode={true}
+        slidesPerView={1}
         pagination={{
           clickable: true,
         }}

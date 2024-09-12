@@ -1,8 +1,8 @@
 import { Sequelize } from "sequelize-typescript";
 //new con
-import { Student } from "../models/Student";
 import { Course } from "../models/Course";
 import { StudentCourse } from "../models/StudentCourse";
+import { Student } from "../models/Student";
 
 const sequelize = new Sequelize({
   database: "course-app",
